@@ -8,8 +8,6 @@
                 color: black;
                 font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
                 font-size: large;
-                margin: 0;
-                padding: 0;
             }
 
             section {
@@ -17,6 +15,7 @@
                 background: rgb(213, 213, 213);
                 margin: 0;
                 padding: 10px;
+                text-align: center;
                 
             }
             
@@ -27,11 +26,15 @@
             h2 {
                 color: black;
                 margin: 20px;
+                text-align: center;
             }
 
             p {
-                margin: 20px;
-                width: 900px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 120px;
+                margin-right: 120px;
+                text-align: center;
             }
             button {
                 background: gray;
@@ -43,16 +46,24 @@
             table {
                 border: 3px solid black;
                 margin: 20px;
+                text-align: center;
             }
 
             th {
                 border: 2px solid black;
                 padding: 10px;
+                text-align: center;
             }
 
             td {
                 border: 2px solid black;
                 padding: 10px;
+                text-align: center;
+            }
+
+            .center {
+                margin-left: auto;
+                margin-right: auto;
             }
 
         </style>
@@ -62,17 +73,19 @@
             <h1>Conner Ngadisastra</h1>
         </section>
         
-        <h2>About Me</h2>
+        <div>
+            <h2>About Me</h2>
         <p>Hi! My name is Conner and I am a first year Information Systems and Data Analytics student 
             at Seattle Pacific University. I mainly code in C++ and Python but I also have experience 
             with Java, JavaScript, Pandas, HTML, and CSS. I like to code projects that require lots of 
             math and logic, and I am interested in learning more about machine learning and coding 
             prediction models.
         </p>
+        </div>
         
         <br>
         <h2>Relevant Coursework</h2>
-        <table>
+        <table class = "center">
             <tr>
                 <th>Course Number</th>
                 <th>Course Name</th>
